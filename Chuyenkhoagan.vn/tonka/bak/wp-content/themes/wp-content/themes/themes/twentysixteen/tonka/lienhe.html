@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-title" content="kcv.net" />
+<title>Wellcome Misshoa</title>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans300,400,700,800&subset=latin,vietnamese,latin-ext' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700,500,900&subset=latin,vietnamese,latin-ext' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" media="all" />
+<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" media="all" />
+<link rel="stylesheet" href="css/flexslider.css" media="all" />
+<link rel="stylesheet" href="css/tonka.css" media="all" />
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div id="page">
+  <header class="hidden-sm hidden-xs">    
+    <div id="wrapper_header" class="width_common">
+      <div class="container">
+      	<div class="relative">       
+          <div id="main_menu">
+            <div class="menu_web">              
+                <h2 class="item_menu_web active"> <a href="#" class="parent_menu">TRang chủ </a> </h2>
+                <h2 class="item_menu_web"> 
+                	<a href="#" class="parent_menu">kiến thức <i class="fa fa-caret-down"></i> </a> 
+                    <div class="sub_main_menu">
+                    	<a href="#">Why Germany?</a>
+                        <a href="#">The German superior education system </a>
+                        <a href="#">Specific benefits</a>
+                        <a href="#">Why to use our consulting service</a>
+                    </div>
+                </h2>
+                <h2 class="item_menu_web"> <a href="#" class="parent_menu">phòng ngừa - điều trị </a></h2>
+                <h2 class="item_menu_web"> <a href="#" class="parent_menu">tư vấn</a> </h2> 
+                <h2 class="item_menu_web"> <a href="#" class="parent_menu">kho video</a> </h2>
+                <h2 class="item_menu_web"> <a href="#" class="parent_menu">liên hệ</a> </h2> 
+            </div>
+          </div>
+          <div class="block_search_header">
+          	<div class="relative">
+                <input type="text">
+                <button><i class="fa fa-search"></i></button>
+            </div>
+          </div>
+         </div>
+      </div>
+    </div>
+  </header>
+  <div id="banner_top_site" class="width_common">
+    	<div class="container">
+    		<div class="banner_site"><img src="images/graphics/img_720x90.jpg" alt="" /></div>
+            <a href="#" class="logo_site visible-lg visible-md"><img src="images/graphics/img_logo_site.png" alt="" /></a>
+        </div>
+   </div>
+  <div id="menu_tablet" class="width_common hidden-lg hidden-md"> <a href="#" class="logo"><img src="images/graphics/img_logo_site.png" alt="" /></a>
+    <div class="block_hamber_menu">
+      <div class="hamber"> <span>&nbsp;</span> <span>&nbsp;</span> <span>&nbsp;</span> </div>
+      <div class="block_menu">
+        <div class="width_common">
+          <ul>
+                <li class="active"> <a href="#" >Trang chủ</a> </li>
+                <li> <a href="#" >Giới thiệu</a> </li>
+                <li> <a href="#" >Giải pháp </a></li>
+                <li> <a href="#"> Nghiên cứu</a> </li> 
+                <li> <a href="#" >Hỗ trợ</a> </li> 
+                <li> <a href="#" >Đăng nhập</a> </li>
+              </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="wrapper_container">
+  	<div class="container">
+    	<div id="lienhe_page">
+        	<div class="row">
+            	<div class="col-lg-8 col-md-8 col-sm-8 col-xs-7 col-tn-12 space_bottom_10">
+                    <div id="lienhe_map" class="width_common space_bottom_20">
+                        <div class="title_box"><h3><a href="#" class="text-uppercase">BẢn đồ</a></h3></div>
+                        <div class="content_box">
+                        	<div class="block_filter_erea">
+                            	<div class="item_fillter">
+                                	<div class="dropdown">
+                                      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                        Văn phòng Hà Nội
+                                        <span class="caret"></span>
+                                      </button>
+                                      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                        <li><a href="#">Văn phòng Hà Nội</a></li>
+                                        <li><a href="#">Văn phòng HCM</a></li>
+                                        <li><a href="#">Nhà máy sản xuất</a></li>
+                                        <li><a href="#">Separated link</a></li>
+                                      </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="mapgoogle"> 
+                                <div class="google-map-canvas" id="map-canvas">
+                                              <script type='text/javascript' src="http://maps.googleapis.com/maps/api/js?sensor=false&extension=.js&output=embed"></script>
+                                              <script>                
+                            
+                                              function initialize() {
+                                                var isDraggable = $(document).width() > 992 ? true : false;
+                            
+                                                var mapOptions = {
+                                                  center: new google.maps.LatLng(51.503454,-0.119562),
+                                                  zoom: 15,
+                                                  scrollwheel: false,
+                                                  draggable: isDraggable,
+                                                  mapTypeId: google.maps.MapTypeId.ROADMAP
+                                                };
+                                                
+                                                
+                                                
+                                                var marker = new google.maps.Marker({
+                                                  position: new google.maps.LatLng(51.503454,-0.119562),
+                                                  url: '/',
+                                                  animation: google.maps.Animation.DROP
+                                                });
+                                                
+                                                var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions); 
+                                                marker.setMap(map);
+                                                
+                                              }
+                            
+                                              google.maps.event.addDomListener(window, 'load', initialize);
+                                              </script>
+                                            </div>
+                            
+                              </div>
+                        </div>
+                    </div>
+                    
+                     <div id="block_input_lienhe" class="width_common space_bottom_10">
+                        <div class="title_box"><h3><a href="#" class="text-uppercase">Gửi liên hệ</a></h3></div>
+                        <div class="content_box">
+                        	<div class="lead_lienhe space_bottom_20">Quý khách có nhu cầu sử dụng dịch vụ của chúng tôi vui lòng điền thông tin theo mẫu dưới đây và gửi về hòm thư của chúng tôi. Chúng tôi xử lý và phản hồi lại quý khách sớm nhất có thể. Trân trọng cảm ơn!</div>
+                            
+                            <div class="main_form_input_lienhe width_common">    
+                            	<div class="row">                        	
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-tn-12">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Họ tên *">
+                                            <span class="error">lỗi nè</span>                                        
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-tn-12">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Tiêu đề *">                                                                          
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-tn-12">
+                                    	<div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Email">                                                                         
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Số điện thoại">                                                                         
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Địa chỉ">                                                                         
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-tn-12">
+                                    	 <div class="form-group">
+                                    		<textarea  class="form-control input_noidung"  placeholder="Nội dung"></textarea>
+                                         </div>
+                                    </div>
+                                </div>  
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 col-tn-4">
+                                    	<div class="form-group text_baomat">
+                                    		Mã bảo mật 
+                                        </div>
+                                    </div> 
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 col-tn-4">
+                                    	<div class="form-group">
+                                            <input type="text" class="form-control">                                                                         
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 col-tn-4">
+                                    	<div class="form-group">
+                                    		<img src="images/graphics/img_capcha.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-tn-12">
+                                    	<div class="form-group">
+                                        	<button class="btn btn_site"> gửi</button>
+                                        </div>
+                                    </div> 
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                 	</div>
+                     </div>
+                </div>
+                                    
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-5 col-tn-12 space_bottom_10">
+                	<div id="box_diachi_lienhe" class="space_bottom_20 width_common">
+                        <div class="title_box"><h3><a href="#" class="text-uppercase">Địa chỉ liên hệ</a></h3></div>                  
+                        <div class="content_box_video width_common">
+                        	<div class="item_diachi_lienhe">
+                            	<div class="title_item_diachi">
+                                	Văn phòng Hà Nội
+                                </div>
+                                <div class="content_item_diachi">
+                                	<div class="wap_item_diachi">
+                                    	<i class="fa fa-home"></i>
+                                    	6A/508 Đường Láng, Quận Đống Đa, Hà Nội, Việt Nam
+                                    </div>
+                                    <div class="wap_item_diachi">
+                                    	<i class="fa fa-phone"></i>
+                                    	04.35 62 5766
+                                    </div>
+                                    <div class="wap_item_diachi">
+                                    	<i class="fa fa-fax"></i>
+                                    	04.35 62 7005
+                                    </div>
+                                    <div class="wap_item_diachi">
+                                    	<i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                                    	18006689
+                                    </div>
+                                     <div class="wap_item_diachi">
+                                    	<i class="fa fa-envelope"></i>
+                                    	<a href="#">lienhe@nhatnhat.com</a>
+                                    </div>
+                                     <div class="wap_item_diachi">
+                                    	<i class="fa fa-link"></i>
+                                    	<a href="#">www.nhatnhat.com </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item_diachi_lienhe">
+                            	<div class="title_item_diachi">
+                                	Văn phòng TP. Hồ Chí Minh
+                                </div>
+                                <div class="content_item_diachi">
+                                	<div class="wap_item_diachi">
+                                    	<i class="fa fa-home"></i>
+                                    	194/3 Trần Huy Liệu, Phường 15, Q Phú Nhuận, Hồ Chí Minh
+                                    </div>
+                                    <div class="wap_item_diachi">
+                                    	<i class="fa fa-phone"></i>
+                                    	08.221 68 967
+                                    </div>
+                                    <div class="wap_item_diachi">
+                                    	<i class="fa fa-fax"></i>
+                                    	Fax:08.626 49 400
+                                    </div>
+                                    <div class="wap_item_diachi">
+                                    	<i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                                    	18006689
+                                    </div>
+                                     <div class="wap_item_diachi">
+                                    	<i class="fa fa-envelope"></i>
+                                    	<a href="#">lienhe@nhatnhat.com</a>
+                                    </div>
+                                     <div class="wap_item_diachi">
+                                    	<i class="fa fa-link"></i>
+                                    	<a href="#">www.nhatnhat.com </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item_diachi_lienhe">
+                            	<div class="title_item_diachi">
+                                	Nhà máy sản xuất
+                                </div>
+                                <div class="content_item_diachi">
+                                	<div class="wap_item_diachi">
+                                    	<i class="fa fa-home"></i>
+                                    	Âp Bình Tiền 2, xã Đức Hòa Hạ, huyện Đức Hòa, tỉnh Long An
+                                    </div>
+                                    <div class="wap_item_diachi">
+                                    	<i class="fa fa-phone"></i>
+                                    	072.3817 117
+                                    </div>
+                                    <div class="wap_item_diachi">
+                                    	<i class="fa fa-fax"></i>
+                                    	072.3817 337
+                                    </div>
+                                    <div class="wap_item_diachi">
+                                    	<i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                                    	18006689
+                                    </div>
+                                     <div class="wap_item_diachi">
+                                    	<i class="fa fa-envelope"></i>
+                                    	<a href="#">lienhe@nhatnhat.com</a>
+                                    </div>
+                                </div>
+                            </div>                                                 	
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    	
+       
+    </div>
+  </div>  
+  <div id="menu_footer" class="hidden-xs hidden-xs">
+    <h2 class="item_menu_web active"> <a href="#" class="parent_menu">TRang chủ </a> </h2>
+                <h2 class="item_menu_web"> 
+                	<a href="#" class="parent_menu">kiến thức tiền mãn kinh <i class="fa fa-caret-down"></i> </a> 
+                    <div class="sub_main_menu">
+                    	<a href="#">Why Germany?</a>
+                        <a href="#">The German superior education system </a>
+                        <a href="#">Specific benefits</a>
+                        <a href="#">Why to use our consulting service</a>
+                    </div>
+                </h2>
+                <h2 class="item_menu_web"> <a href="#" class="parent_menu">sức khỏe - làm đẹp</a></h2>
+                <h2 class="item_menu_web"> <a href="#" class="parent_menu">tư vấn - chia sẻ</a> </h2> 
+                <h2 class="item_menu_web"> <a href="#" class="parent_menu">kho video</a> </h2> 
+  </div>
+  <footer id="wrapper_footer">
+    <div class="container">
+      <div id="footer" class="width_common">
+      	<div class="row">
+        	<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 col-tn-12">
+            	<div class="title_footer">Công ty Dược phẩm Nhất Nhất</div>
+                <div class="item_footer"><i class="fa fa-map-marker" aria-hidden="true"></i> 6A/508 Đường Láng, Quận Đống Đa, Hà Nội, Việt Nam</div>
+                <div class="item_footer"><i class="fa fa-phone" aria-hidden="true"></i> 04.35 62 5766</div>
+                <div class="item_footer"><i class="fa fa-envelope" aria-hidden="true"></i> <a href="#">lienhe@nhatnhat.com</a></div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 col-tn-12">
+            	<div class="title_footer">Hỗ trợ khách hàng</div>
+                <div class="item_footer"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> <a href="#">Tuyển dụng</a></div>
+                <div class="item_footer"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> <a href="#">Chương trình khuyến mãi</a></div>
+                <div class="item_footer"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> <a href="#">Tra cứu thông tin sản phẩm chính hãng</a></div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 col-tn-12">
+            	<div class="title_footer">Chia sẻ &nbsp; <a href="#" class="item_share_footer"><i class="fa fa-facebook" aria-hidden="true"></i></a> <a href="#" class="item_share_footer"><i class="fa fa-google-plus" aria-hidden="true"></i></a> <a href="#" class="item_share_footer"><i class="fa fa-youtube" aria-hidden="true"></i></a></div>
+                <div class="space_bottom_10">Đăng ký nhận bản tin</div>
+                <div class="space_bottom_10">
+                	<div class="block_search_footer">
+                        <div class="relative">
+                            <input type="text" value="Email">
+                            <button>Đăng ký</button>
+                        </div>
+                     </div>
+                </div>
+                
+            </div>
+        </div>
+      	
+      </div>
+    </div>
+    
+    <div class="coppy_right">
+    	<div class="container">
+            <p>Giấy phép số: 540/GP-TTĐT ngày 09/03/2015 của Sở thông tin và truyền thông, UBND TP Hà Nội</p>
+            <p>Bản quyền @2013 thuộ về CÔNG TY TNHH NHẤT NHẤT </p>
+        </div> 
+    </div>
+    
+  </footer>
+</div>
+<!-- /page --> 
+<script language="javascript" type="text/javascript" src="js/mouseWhell.js"></script> 
+<script src="js/jquery.flexslider-min.js"></script>
+<script src="js/common.js"></script>
+<script>
+$(function(){
+	
+})
+</script>
+</body>
+</html>

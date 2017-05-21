@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0">
+
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Wellcome Khao sat 360</title>
+<!-- TemplateEndEditable -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&subset=latin,vietnamese,latin-ext' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" media="all" />
+<link rel="stylesheet" href="css/khaosat.css" media="all" />
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div id="page" >
+  <header class="hidden-sm hidden-xs">
+    <div class="width_common " id="top_bar">
+      <div class="container">
+        <div class="block_head_login width_common  txt_333">
+          <div class="left login_left txt_13"><a href="#"><span class="glyphicon glyphicon-home"></span></a> &nbsp;   Thứ tư, 27/5/2015 | 23:20 GMT+7</div>
+          <div class="right listshare_top">
+            <div class="txt_hotline">Hotline: <span class="txt_bold">1900 - 1739</span></div>
+            	<a href="#" class="icon_share icon_fb">&nbsp;</a> 
+                <a href="#" class="icon_share icon_gg">&nbsp;</a> 
+                <a href="#" class="icon_share icon_tw">&nbsp;</a> 
+                <a href="#" class="icon_share icon_ti">&nbsp;</a> 
+                <a href="#" class="icon_share icon_pt">&nbsp;</a> 
+            
+            
+          </div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    <div id="wrapper_header" class="width_common">
+      <div class="container">
+        <div class="block_main_header width_common"> <a href="#" class="logo"><img src="images/graphics/logo_site_4.png" alt="" /></a>
+          <div id="main_menu">
+            <div class="menu_web">
+              <ul>
+                <li class="active"> <a href="#" >Trang chủ</a> </li>
+                <li> <a href="#" >Giới thiệu</a> </li>
+                <li> <a href="#" >Giải pháp </a></li>
+                <li> <a href="#"> Nghiên cứu</a> </li> 
+                <li> <a href="#" >Hỗ trợ</a> </li> 
+                <li> <a href="#" >Đăng nhập</a> </li>
+                <li> <a href="#" ><span class="glyphicon glyphicon-search"></span></a> </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div id="menu_tablet" class="width_common hidden-lg hidden-md"> <a href="#" class="logo"><img src="images/graphics/logo_site_1.png" alt="" /></a>
+    <div class="block_hamber_menu">
+      <div class="hamber"> <span>&nbsp;</span> <span>&nbsp;</span> <span>&nbsp;</span> </div>
+      <div class="block_menu">
+        <div class="width_common">
+          <ul>
+                <li class="active"> <a href="#" >Trang chủ</a> </li>
+                <li> <a href="#" >Giới thiệu</a> </li>
+                <li> <a href="#" >Giải pháp </a></li>
+                <li> <a href="#"> Nghiên cứu</a> </li> 
+                <li> <a href="#" >Hỗ trợ</a> </li> 
+                <li> <a href="#" >Đăng nhập</a> </li>
+              </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- TemplateBeginEditable name="EditRegion5" -->
+  <div id="section_intro_khaosat" class="width_common section_intro_khaosat spacing_title_page" >
+    <div class="container">
+      <div class="width_common main_section">
+      	 <div class="title_block width_common">
+          <div class="txt_tt_block"><span>Giới</span> thiệu</div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+  <!-- TemplateEndEditable -->
+  <div class="width_common" id="section_breakumb">
+  	<div class="container">
+    	<div class="breakcrumb"><!-- TemplateBeginEditable name="breakcumb" -->
+        	 <a href="#">Trang chủ</a>
+            <span class="glyphicon glyphicon-menu-right"></span>
+            <a href="#">TIN TỨC - SỰ KIỆN</a>
+        <!-- TemplateEndEditable -->           
+        </div>
+    	<div class="clear"></div> 
+    </div>
+  </div>
+  <div id="wrapper_container" class="width_common">
+    <div class="container">
+    	<!-- TemplateBeginEditable name="container" -->
+        	container
+		<!-- TemplateEndEditable -->
+        <div class="clear"></div>
+    </div>    
+  </div>
+  
+  <div class="width_common" id="section_nhataitro">
+    <div class="container">
+    	<div id="doitac" class="owl-carousel">
+            <div class="item_slider">
+                <div class="item_nhataitro"><a href="#"> <img class="" alt="" src="images/graphics/123-pay.png"> </a></div>
+            </div>
+            <div class="item_slider">
+                <div class="item_nhataitro"><a href="#"> <img class="" alt="" src="images/graphics/img_80x80.jpg"> </a></div>
+            </div>
+            <div class="item_slider">
+               <div class="item_nhataitro"><a href="#"> <img class="" alt="" src="images/graphics/img_80x80_2.jpg"> </a></div>
+            </div>
+            <div class="item_slider">
+                <div class="item_nhataitro"><a href="#"> <img class="" alt="" src="images/graphics/123-pay.png"> </a></div>
+            </div>
+            <div class="item_slider">
+                <div class="item_nhataitro"><a href="#"> <img class="" alt="" src="images/graphics/img_80x80.jpg"> </a></div>
+            </div>
+            <div class="item_slider">
+               <div class="item_nhataitro"><a href="#"> <img class="" alt="" src="images/graphics/img_80x80_2.jpg"> </a></div>
+            </div>
+            <div class="item_slider">
+                <div class="item_nhataitro"><a href="#"> <img class="" alt="" src="images/graphics/123-pay.png"> </a></div>
+            </div>
+            <div class="item_slider">
+                <div class="item_nhataitro"><a href="#"> <img class="" alt="" src="images/graphics/img_80x80.jpg"> </a></div>
+            </div>
+            <div class="item_slider">
+               <div class="item_nhataitro"><a href="#"> <img class="" alt="" src="images/graphics/img_80x80_2.jpg"> </a></div>
+            </div>
+            <div class="item_slider">
+                <div class="item_nhataitro"><a href="#"> <img class="" alt="" src="images/graphics/123-pay.png"> </a></div>
+            </div>
+            <div class="item_slider">
+                <div class="item_nhataitro"><a href="#"> <img class="" alt="" src="images/graphics/img_80x80.jpg"> </a></div>
+            </div>
+            <div class="item_slider">
+               <div class="item_nhataitro"><a href="#"> <img class="" alt="" src="images/graphics/img_80x80_2.jpg"> </a></div>
+            </div>
+        </div>
+        
+        <div class="block_txt_slogan">
+        	<div class="slogan_1">khaosat360 là hệ thống khảo sát hiện đang được tin dùng bởi 30 thương hiệu lớn</div>
+            <div class="slogan_2">“thông minh, thân thiện và hiện đại”</div>
+        </div>
+        
+        <div class="row">
+        	<div class="col-lg-4 col-md-6  col-sm-6 col-lg-offset-1">
+            	<div class="txt_14 txt_center">Hỗ trợ về tài khoản</div>
+                <div class="block_contact">
+                	<span class="glyphicon glyphicon-phone"></span> Hotline: 1900 1739 Ext 4  | admin@khaosat360.vn
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-lg-offset-2">
+            	<div class="txt_14 txt_center">Tư vấn chuyên môn (bảng hỏi, chiến dịch, phân tích)</div>
+                <div class="block_contact">
+                	<span class="glyphicon glyphicon-phone"></span> Hotline: 1900 1739 Ext 4  | admin@khaosat360.vn
+                </div>
+            </div>
+        </div>
+       
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+  
+  <div id="menu_footer" class="width_common hidden-sm hidden-xs">
+  	<div class="container">
+    	<ul>
+            <li class="active"> <a href="#" >Trang chủ</a> </li>
+            <li> <a href="#" >Giới thiệu</a> </li>
+            <li> <a href="#" >Giải pháp </a></li>
+            <li> <a href="#"> Nghiên cứu</a> </li> 
+            <li> <a href="#" >Hỗ trợ</a> </li> 
+            <li> <a href="#" >Đăng nhập</a> </li>
+          </ul>
+    </div>
+  </div>
+  
+  <footer>
+    <div class="container">
+      <div id="footer" class="width_common">
+      	<div class="row">
+        	<div class="col-lg-3">
+
+            	<a href="#"><img src="images/graphics/logo_site_2.png" alt="" /></a>
+            </div>
+            <div class="col-lg-5">
+            	<div class="row">
+                	<div class="col-lg-3"><a href="#"><img src="images/graphics/logo_site_3.png" alt="" /></a></div>
+                    <div class="col-lg-9">
+                    	Tel: (04)3565 9596  -  Email: contact@hoasao.vn
+Address: Số 160, Lê Trọng Tấn, Thanh Xuân, Hà Nội<br> <br>
+						© khaosat360 là sản phẩm thuộc Tập đoàn Hoa Sao
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+            	<p>Nhận thông tin từ Khaosat360</p>
+            	<div class="block_nhanthontin">
+                	<div class="txt_input">
+                      <input type="text" class="form-control"  placeholder="Điền địa chỉ mail">                      
+                    </div>
+                    <button>Nhận thông tin</button>
+                </div>
+                
+                <div class="listshare_top left">
+                        <a class="icon_share icon_fb" href="#">&nbsp;</a> 
+                        <a class="icon_share icon_gg" href="#">&nbsp;</a> 
+                        <a class="icon_share icon_tw" href="#">&nbsp;</a> 
+                        <a class="icon_share icon_ti" href="#">&nbsp;</a> 
+                        <a class="icon_share icon_pt" href="#">&nbsp;</a> 
+                  </div>
+                
+            </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+<script src="js/mouseWhell.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/common.js"></script>
+<!-- TemplateBeginEditable name="script" -->script<!-- TemplateEndEditable --> 
+
+</body>
+</html>

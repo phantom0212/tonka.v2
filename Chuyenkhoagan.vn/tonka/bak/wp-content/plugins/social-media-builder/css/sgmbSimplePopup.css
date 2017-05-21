@@ -1,0 +1,50 @@
+#sgmb-description-popup
+{
+	color: #000000;
+	padding: 20px 15px;
+	font-size: 18px;
+	text-align: center;
+}
+	
+.sg-simple-popup 
+{
+	font-family: Arial;
+	font-size: 14px;
+	display:none ;
+	position:fixed !important;
+	background:#fff;
+	z-index:8888888;
+	padding-bottom:12px;
+	width:50%;
+	min-width:50%;
+}
+
+.simplePopupClose 
+{
+    float: right;
+    cursor: pointer;
+    color: #fff;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.simplePopupBackground 
+{
+	display:none;
+	background:#dbdbdb;
+	position:fixed;
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	z-index:5555555;
+}
+
+#sgmb-title-popup
+{  
+	text-align: center;
+	padding: 5px;
+	font-size: 24px;
+	background-color: #34495e ;
+	color: #ffffff;
+}

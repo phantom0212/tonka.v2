@@ -1,0 +1,58 @@
+.detail {
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+	width: 100%;
+	height: 110px;
+}
+.detail img {
+	object-fit: cover;
+	height: 110px;
+	width: 100%;
+}
+
+.small_img {
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+	width: 100%;
+	height: 60px;
+}
+.small_img img {
+	object-fit: cover;
+	height: 60px;
+	width: 100%;
+}
+
+.top_img {
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+	width: 100%;
+	height: 200px;
+}
+.top_img img {
+	object-fit: cover;
+	height: 200px;
+	width: 100%;
+}
+
+.cate_img {
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+	width: 100%;
+	height: 150px;
+}
+.cate_img img {
+	object-fit: cover;
+	height: 150px;
+	width: 100%;
+}
+#tuvan_page .author_answear{
+margin-top:30px;
+}

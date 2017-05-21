@@ -1,0 +1,360 @@
+/*
+  SmartWizard 2.0 plugin
+  jQuery Wizard control Plugin
+  by Dipu
+
+  http://www.techlaboratory.net
+  http://tech-laboratory.blogspot.com
+*/
+.sgmb-create-button-wizard {
+  position:relative;
+  display:block;
+  margin:0;
+  padding:0;
+  border: 0px solid #CCC;
+  overflow:visible;
+  float:left;
+  width:98.8%;/* */
+  z-index: 1 !important;
+}
+.sgmb-create-button-wizard .stepContainer {
+  display:block;
+  position: relative;
+  margin: 0;
+  padding:0;
+  border: 0px solid #CCC;
+  overflow:auto;
+  min-height: 378px;
+  width: 83.1%;
+  margin-left: 12px;
+  float: left;
+}
+
+@media only screen and (max-width:1410px) {
+  .sgmb-create-button-wizard .stepContainer  {
+       width: 83%;
+       margin-left: 12px;
+  }
+}
+
+@media only screen and (max-width:1380px) {
+  .sgmb-create-button-wizard .stepContainer  {
+       width: 81.3%;
+       margin-left: 28px;
+  }
+}
+
+@media only screen and (max-width:1280px) {
+  .sgmb-create-button-wizard .stepContainer  {
+       width: 79.3%;
+       margin-left: 45px;
+  }
+}
+
+@media only screen and (max-width:1205px) {
+  .sgmb-create-button-wizard .stepContainer  {
+       width: 68.3%;
+       margin-left: 75px;
+  }
+}
+
+@media only screen and (max-width:1380px) {
+  .sgmb-create-button-wizard div.actionBar  {
+       width: 81.3% !important;
+  }
+}
+
+@media only screen and (max-width:1280px) {
+  .sgmb-create-button-wizard div.actionBar  {
+       width: 79.3% !important;
+  }
+}
+
+@media only screen and (max-width:1205px) {
+  .sgmb-create-button-wizard div.actionBar  {
+       width: 68.3% !important;
+       margin-right: 7% !important;
+  }
+}
+
+.sgmb-create-button-wizard .stepContainer div.content {
+  display:block;
+  position: absolute;
+  float:left;
+  margin: 0;
+  padding:5px;
+  border: 1px solid #CCC;
+  font: normal 16px Verdana, Arial, Helvetica, sans-serif;
+  color:#5A5655;
+  background-color:#fff;
+  height:auto;
+  overflow: auto;
+  min-height: 378px;
+  text-align:left;
+  z-index:88;
+  -webkit-border-radius: 5px;
+  -moz-border-radius  : 5px;
+  width: 98.8%;
+  clear:both;
+}
+
+.sgmb-create-button-wizard div.actionBar {
+  display:block;
+  position: relative;
+  clear:right;
+  margin:             4px 0 10px 0;
+  border:             1px solid #CCC;
+  padding:            0;
+  color:              #5A5655;
+  background-color:   #F8F8F8;
+  height:40px;
+/*  width:730px;
+  float:right; */
+  text-align:left;
+  overflow:auto;
+  z-index:88;
+  -webkit-border-radius: 5px;
+  -moz-border-radius  : 5px;
+  width: 83%;
+  float: right;
+  margin-right: 2px;
+}
+
+.sgmb-create-button-wizard .stepContainer .StepTitle {
+  display:block;
+  position: relative;
+  margin:0;
+  border:1px solid #E0E0E0;
+  padding:5px;
+  font: bold 16px Verdana, Arial, Helvetica, sans-serif;
+  color:#5A5655;
+  background-color:#E0E0E0;
+  clear:both;
+  text-align:left;
+  z-index:88;
+  -webkit-border-radius: 5px;
+  -moz-border-radius  : 5px;
+}
+.sgmb-create-button-wizard ul.anchor {
+  position: relative;
+  display:block;
+  float:left;
+  list-style: none;
+  padding: 0px;
+  margin: 53px 10px 0 0;
+  border: 0px solid #CCCCCC;
+  background: transparent; /*#EEEEEE */
+  width: 15%;
+}
+.sgmb-create-button-wizard ul.anchor li{
+  position: relative;
+  display:block;
+  margin: 0;
+  padding: 0;
+  padding-top:3px;
+  padding-bottom: 3px;
+  border: 0px solid #E0E0E0;
+  float: left;
+  clear:both;
+}
+/* Anchor Element Style */
+.sgmb-create-button-wizard ul.anchor li a {
+  display:block;
+  position:relative;
+  float:left;
+  margin:0;
+  padding:3px;
+  height:33px;
+  width:182px;
+  text-decoration: none;
+  outline-style:none;
+  -moz-border-radius  : 5px;
+  -webkit-border-radius: 5px;
+  z-index:99;
+}
+.sgmb-create-button-wizard ul.anchor li a .stepNumber{
+  position:relative;
+  float:left;
+
+  text-align: center;
+  padding:5px;
+  margin-top: 6px;
+  padding-top:0;
+  font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+}
+.sgmb-create-button-wizard ul.anchor li a .stepDesc{
+  position:relative;
+  display:block;
+  float:left;
+  text-align: left;
+  padding:5px;
+  font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+}
+.sgmb-create-button-wizard ul.anchor li a .stepDesc small{
+  font: normal 12px Verdana, Arial, Helvetica, sans-serif;
+}
+.sgmb-create-button-wizard ul.anchor li a.selected{
+  color:#F8F8F8;
+  background: #EA8511;  /* EA8511 */
+  border: 1px solid #EA8511;
+  cursor:text;
+  -moz-box-shadow: 1px 5px 10px #888;
+  -webkit-box-shadow: 1px 5px 10px #888;
+  box-shadow: 1px 5px 10px #888;
+}
+.sgmb-create-button-wizard ul.anchor li a.selected:hover {
+  color:#F8F8F8;
+  background: #EA8511;
+}
+
+.sgmb-create-button-wizard ul.anchor li a.done {
+  position:relative;
+  color:#FFF;
+  background: #8CC63F;
+  border: 1px solid #8CC63F;
+  z-index:99;
+}
+.sgmb-create-button-wizard ul.anchor li a.done:hover {
+  color:#5A5655;
+  background: #8CC63F;
+  border: 1px solid #5A5655;
+}
+.sgmb-create-button-wizard ul.anchor li a.disabled {
+  color:#CCCCCC;
+  background: #F8F8F8;
+  border: 1px solid #CCC;
+  cursor:text;
+}
+.sgmb-create-button-wizard ul.anchor li a.disabled:hover {
+  color:#CCCCCC;
+  background: #F8F8F8;
+}
+
+.sgmb-create-button-wizard ul.anchor li a.error {
+  color:#6c6c6c !important;
+  background: #f08f75 !important;
+  border: 1px solid #fb3500 !important;
+}
+.sgmb-create-button-wizard ul.anchor li a.error:hover {
+  color:#000 !important;
+}
+
+.sgmb-create-button-wizard .buttonNext {
+  display:block;
+  float:right;
+  margin:5px 3px 0 3px;
+  padding:5px;
+  text-decoration: none;
+  text-align: center;
+  font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+  width:100px;
+  color:#FFF;
+  outline-style:none;
+  background-color:   #5A5655;
+  border: 1px solid #5A5655;
+  -moz-border-radius  : 5px;
+  -webkit-border-radius: 5px;
+}
+.sgmb-create-button-wizard .buttonDisabled {
+  color:#F8F8F8  !important;
+  background-color: #CCCCCC !important;
+  border: 1px solid #CCCCCC  !important;
+  cursor:text;
+}
+.sgmb-create-button-wizard .buttonPrevious {
+  display:block;
+  float:right;
+  margin:5px 3px 0 3px;
+  padding:5px;
+  text-decoration: none;
+  text-align: center;
+  font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+  width:100px;
+  color:#FFF;
+  outline-style:none;
+  background-color:   #5A5655;
+  border: 1px solid #5A5655;
+  -moz-border-radius  : 5px;
+  -webkit-border-radius: 5px;
+}
+.sgmb-create-button-wizard .buttonFinish {
+  display:block;
+  float:right;
+  margin:5px 10px 0 3px;
+  padding:5px;
+  text-decoration: none;
+  text-align: center;
+  font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+  width:130px;
+  color:#FFF;
+  outline-style:none;
+  background-color:   #8CC63F;
+  border: 1px solid #5A5655;
+  -moz-border-radius  : 5px;
+  -webkit-border-radius: 5px;
+}
+
+/* Form Styles */
+
+.txtBox {
+  border:1px solid #CCCCCC;
+  color:#5A5655;
+  font:13px Verdana,Arial,Helvetica,sans-serif;
+  padding:2px;
+  width:430px;
+}
+.txtBox:focus {
+  border:1px solid #EA8511;
+}
+
+.sgmb-create-button-wizard .loader {
+  position:relative;
+  display:none;
+  float:left;
+  margin: 2px 0 0 2px;
+  padding:8px 10px 8px 40px;
+  border: 1px solid #FFD700;
+  font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+  color:#5A5655;
+  background: #FFF url(../images/loader.gif) no-repeat 5px;
+  -moz-border-radius  : 5px;
+  -webkit-border-radius: 5px;
+  z-index:998;
+}
+.sgmb-create-button-wizard .msgBox {
+  position:relative;
+  display:none;
+  float:left;
+  margin: 4px 0 0 5px;
+  padding:5px;
+  border: 1px solid #FFD700;
+  background-color: #FFFFDD;
+  font: normal 12px Verdana, Arial, Helvetica, sans-serif;
+  color:#5A5655;
+  -moz-border-radius  : 5px;
+  -webkit-border-radius: 5px;
+  z-index:999;
+  min-width:200px;
+}
+.sgmb-create-button-wizard .msgBox .content {
+  font: normal 12px Verdana,Arial,Helvetica,sans-serif;
+  padding: 0px;
+  float:left;
+}
+.sgmb-create-button-wizard .msgBox .close {
+  border: 1px solid #CCC;
+  border-radius: 3px;
+  color: #CCC;
+  display: block;
+  float: right;
+  margin: 0 0 0 5px;
+  outline-style: none;
+  padding: 0 2px 0 2px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+}
+.sgmb-create-button-wizard .msgBox .close:hover{
+  color: #EA8511;
+  border: 1px solid #EA8511;
+}

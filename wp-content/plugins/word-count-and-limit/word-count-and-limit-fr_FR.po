@@ -1,0 +1,293 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Word Count and Limit\n"
+"POT-Creation-Date: 2016-02-28 14:33+0100\n"
+"PO-Revision-Date: 2016-02-28 14:37+0100\n"
+"Last-Translator: \n"
+"Language-Team: Jojaba <jojaba@gmail.com>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: G:\\wamp\\www\\wordpress\\wp-content\\plugins\\word-"
+"count-and-limit\n"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:27
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:28
+msgid "Word Count and Limit"
+msgstr "Word Count and Limit"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:45
+msgid "Word Count and Limit Options"
+msgstr "Options de Word Count and Limit"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:60
+msgid "Save Changes"
+msgstr "Enregistrer les modifications"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:138
+msgid "Set a limit?"
+msgstr "Imposer une limite ?"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:146
+msgid "Impacted users"
+msgstr "Utilisateurs impactés"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:154
+msgid "Impacted post types"
+msgstr "Types de ressources impactés"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:162
+msgid "What should be limited"
+msgstr "Ce qui doit être limité"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:170
+msgid "Max characters allowed"
+msgstr "Nombre de caractères autorisés"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:178
+msgid "Warning for characters count"
+msgstr "Avertissement pour caractères"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:186
+msgid "Warning message for characters limitation"
+msgstr "Message d'avertissement pour limitation de caractères"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:194
+msgid "Max words allowed"
+msgstr "Nombre de mots autorisés"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:202
+msgid "Warning for words count"
+msgstr "Avertissement pour mots"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:210
+msgid "Warning message for words limitation"
+msgstr "Mesage d'avertissement pour limitation de mots"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:218
+msgid "Output Format"
+msgstr "Format d'affichage"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:226
+msgid "Contributor message"
+msgstr "Message pour contributeurs"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:237
+msgid ""
+"Here you can set the options of WP Word Count and Limit plugin. If you set a "
+"limit, the author of the post will be warned if he exceeds the character/"
+"word count limit by changing the characters/words display color (<span style="
+"\"color: darkorange\">orange</span>: near the limit, <span style=\"color: red"
+"\">red</span>: over the limit). If he tries to submit his post as it exceeds "
+"the character limit, he will be prompted a message while and submission will "
+"be refused."
+msgstr ""
+"Ici vous pouvez définir les paramètres de l'extension WP Word Count and "
+"Limit. Si vous définissez une limite, l'auteur d'un billet sera averti s'il "
+"dépasse le nombre de caractères/mots maximum en modifiant la couleur "
+"d'affichage des cacactères/mots (<span style=\"color: darkorange\">orange</"
+"span> : proche de la limite, <span style=\"color: red\">rouge</span> : au-"
+"dessus de la limite).  S'il tente de soumettre son article et que le nombre "
+"de caractères/mots maximum est dépassé, un message d'avertissement "
+"s'affichera après soumission et la validation sera refusée."
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:249
+msgid "Yes"
+msgstr "Oui"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:251
+msgid "No"
+msgstr "Non"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:264
+msgid "Contributors"
+msgstr "Contributeurs"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:265
+msgid "Authors"
+msgstr "Auteurs"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:266
+msgid "Editors"
+msgstr "Editeurs"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:267
+msgid "Administrators"
+msgstr "Administrateurs"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:269
+msgid "The users that should be limited (multiple users role possible)."
+msgstr ""
+"Les utilisateurs qui  devront être limités (plusieurs rôles peuvent être "
+"sélectionnés)."
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:294
+msgid "The post types that should be limited."
+msgstr "Les types de ressources devant être limitées (post, page, ...)."
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:308
+msgid "Characters"
+msgstr "Caractères"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:310
+msgid "Words"
+msgstr "Mots"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:328
+msgid "The max count of characters the author of a post can write."
+msgstr "Le nombre maximal de cararactères qu'un auteur peut écrire."
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:342
+msgid "The number of characters before the max value the warning is fired."
+msgstr ""
+"Le nombre de caractères avant la valeur max où l'avertissement sera donné."
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:352
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:509
+msgid "Sorry, but you exceeded the characters limit!"
+msgstr ""
+"Désolé, mais vous avez dépassé le nombre maximal de caractères "
+"autorisés&nbsp;!"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:356
+msgid ""
+"The message that will display when user exceeded the allowed characters "
+"count (no HTML tags allowed)."
+msgstr ""
+"Le message qui s'affichera lorsque l'utilisateur dépasse le nombre de "
+"caractères autorisés (les balises HTML ne sont pas acceptées)."
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:374
+msgid "The max count of words the author of a post can write."
+msgstr "Le nombre maximal de mots qu'un auteur peut écrire."
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:388
+msgid "The number of words before the max value the warning is fired."
+msgstr "Le nombre de mots avant la valeur max où l'avertissement sera donné."
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:401
+msgid "You can define the output display using the following placeholders:"
+msgstr ""
+"Vous pouvez définir le format d'affichage en utilisant les motifs de "
+"remplacement suivants&nbsp;:"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:403
+msgid ""
+"When <b>no limit set</b>: <code>#chars</code> (the number of characters), "
+"<code>#words</code> (the number of words)"
+msgstr ""
+"Lorsqu'<b>aucune limite n'est définie</b>&nbsp;: <code>#chars</code> (le "
+"nombre de caractères), <code>#words</code> (le nombre de mots)"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:404
+msgid ""
+"When <b>limited characters</b>: <code>#chars</code> (the number of "
+"characters), <code>#words</code> (the number of words),  <code>#maxChars</"
+"code> (the max characters allowed), <code>#leftChars</code> (the remaining "
+"characters)"
+msgstr ""
+"Quand le <b>nombre de caractères est limité</b>&nbsp;: <code>#chars</code> "
+"(le nombre de caractères saisis), <code>#words</code>, <code>#maxChars</"
+"code> (le nombre de caractères maximum autorisé), <code>#leftChars</code> "
+"(le nombre de caractères restant)."
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:405
+msgid ""
+"When <b>limited words</b>: <code>#chars</code> (the number of characters), "
+"<code>#words</code> (the number of words),  <code>#maxWords</code> (the max "
+"words allowed), <code>#leftWords</code> (the remaining words)"
+msgstr ""
+"Quand le <b>nombre de mots est limité</b>&nbsp;: <code>#chars</code> (le "
+"nombre de caractères saisis), <code>#words</code> (le nombre de mots "
+"saisis), <code>#maxWords</code> (le nombre de mots maximum autorisé), "
+"<code>#leftWords</code> (le nombre de mots restant)."
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:407
+msgid "The following HTML tags are allowed: "
+msgstr "Les balises HTML suivantes sont autorisées&nbsp;:"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:409
+msgid "The format output in action:"
+msgstr "Le format d'affichage en action&nbsp;:"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:411
+msgid ""
+"Regular use (<b>without limitation</b>): <code>&lt;b&gt;#chars&lt;/b&gt; "
+"characters | &lt;b&gt;#words&lt;/b&gt; words</code> will display <q style="
+"\"padding: 2px 4px; border: #e0e0e0 1px solid; background: #f7f7f7;"
+"\"><b>123</b> characters | <b>36</b> words.</q>."
+msgstr ""
+"Utilisation ordinaire (<b>sans limitation</b>)&nbsp;: <code>&lt;b&gt;"
+"#chars&lt;/b&gt; caractères | &lt;b&gt;#words&lt;/b&gt; mots</code> "
+"affichera <q style=\"padding: 2px 4px; border: #e0e0e0 1px solid; "
+"background: #f7f7f7;\"><b>123</b> caractères | <b>36</b> mots.</q>. "
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:412
+msgid ""
+"Use when <b>characters limit set</b>: <code>#chars/#maxChars &lt;i&gt;"
+"characters&lt;/i&gt;, #leftChars &lt;i&gt;left&lt;/i&gt; | #words &lt;i&gt;"
+"words&lt;/i&gt;</code> will display <q style=\"padding: 2px 4px; border: "
+"#e0e0e0 1px solid; background: #f7f7f7;\">123/250 <i>characters</i>, 127 "
+"<i>left</i> | 36 <i>words</i></q> or <q style=\"padding: 2px 4px; border: "
+"#e0e0e0 1px solid; background: #f7f7f7; color: red;\">256/250 <i>characters</"
+"i>, 0 <i>left</i> | 68 <i>words</i></q>."
+msgstr ""
+"Utilisation lorsque la <b>limite de caractères est définie</b>&nbsp;: "
+"<code>#chars/#maxChars &lt;i&gt;caractères&lt;/i&gt;, #leftChars &lt;i&gt;"
+"restant&lt;/i&gt; | #words &lt;i&gt;mots&lt;/i&gt;</code> affichera <q style="
+"\"padding: 2px 4px; border: #e0e0e0 1px solid; background: #f7f7f7; "
+"\">123/250 <i>caractères</i>, 127 <i>restant</i> | 36 <i>mots</i></q> ou <q "
+"style=\"padding: 2px 4px; border: #e0e0e0 1px solid; background: #f7f7f7; "
+"color: red;\">256/250 <i>caractères</i>, 0 <i>restant</i> | 68 <i>mots</i></"
+"q>."
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:425
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:512
+msgid "Sorry, but you exceeded the words limit!"
+msgstr "Désolé, mais vous avez dépassé le nombre maximal de mots autorisés !"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:429
+msgid ""
+"The message that will display when user exceeded the allowed words count (no "
+"HTML tags allowed)."
+msgstr ""
+"Le message qui s'affichera lorsque l'utilisateur dépasse le nombre de mots "
+"autorisé (les balises HTML ne sont pas acceptées)."
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:439
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:514
+msgid ""
+"Your Post has been submitted to the editorial team for validation and "
+"publish. Thanks for your contribution!"
+msgstr ""
+"Votre article va être soumis à notre équipe éditoriale pour validation et "
+"publication. Merci pour votre contribution !"
+
+#: G:\wamp\www\wordpress\wp-content\plugins\word-count-and-limit/wpwcl.php:443
+msgid ""
+"The message that will display when a contributor submit a post (no HTML tags "
+"allowed)."
+msgstr ""
+"Le message qui s'affichera lorsqu'un contributeur soumettra un article (pas "
+"de balises HTML autorisées)."
+
+#~ msgid "Warning"
+#~ msgstr "Avertissement"
+
+#~ msgid "Warning message"
+#~ msgstr "Message d'avertissement"
+
+#~ msgid "Regular use:"
+#~ msgstr "Utilisation normale :"
+
+#~ msgid "When limit set:"
+#~ msgstr "Quand une limite a été définie :"
+
+#~ msgid "WP Word Counter"
+#~ msgstr "WP Word Counter"

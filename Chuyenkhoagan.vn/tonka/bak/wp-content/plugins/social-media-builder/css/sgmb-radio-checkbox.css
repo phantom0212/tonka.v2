@@ -1,0 +1,208 @@
+
+
+/*
+ * Image Checkbox & Radio Buttons
+ */
+
+.sgmb_checkbox, .sgmb_radio {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.sgmb_radio {
+	margin-right: 50px;
+	margin-bottom: 40px;
+}
+
+.sgmb_checkbox_label, .sgmb_radio_label {
+	text-align: center;
+	width: 250px !important;
+}
+
+.sgmb_image_checkbox, .sgmb_image_radio {
+	border-width: 3px;
+	border-style: solid;
+	border-color: #d3d3d3;
+	display: block;
+	margin-right: 5px;
+	cursor: pointer;
+	vertical-align: top;
+-webkit-transition: all 0.1s ease;
+-moz-transition: all 0.1s ease;
+-ms-transition: all 0.1s ease;
+-o-transition: all 0.1s ease;
+transition: all 0.1s ease;
+}
+
+.checkbox-image img {
+	width: 200px;
+}
+
+.sgmb_radio .sgmb_image_radio {
+	margin-right: 0px;
+}
+
+.sgmb_image_checkbox:hover, .sgmb_image_radio:hover {
+	border-color: #8CC63F;
+}
+
+.sgmb_radio_container_html .sgmb_image_radio .checkbox-image {
+	background-color: #ffffff;
+	text-align: left;
+}
+
+.sgmb_radio_container_buttons .sgmb_radio,
+.sgmb_radio_container_buttons .sgmb_checkbox {
+	margin: 0;
+}
+
+.sgmb_radio_container_buttons .sgmb_image_radio,
+.sgmb_radio_container_buttons .sgmb_image_checkbox {
+	border: 1px solid #d2d2d2;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fafafa+0,efefef+100 */
+background: #fafafa; /* Old browsers */
+background: -moz-linear-gradient(top,  #fafafa 0%, #efefef 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #fafafa 0%,#efefef 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #fafafa 0%,#efefef 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#efefef',GradientType=0 ); /* IE6-9 */
+text-align: center;
+	cursor: pointer;
+}
+
+.sgmb_radio_container_html .sgmb_image_radio .checkbox-image .sgmb_radio_label_html {
+	text-align: center;
+	padding: 8px;
+	background-color: #f5f6f7;
+	border-radius: 4px;
+}
+
+.sgmb_radio_container_html .sgmb_image_radio .checkbox-image .sgmb_links {
+	margin: 5px 0px 5px 0px;
+}
+
+.sgmb_radio_container_html .sgmb_image_radio,
+.sgmb_radio_container_html .sgmb_image_checkbox {
+	padding: 5px;
+	background-color: #fff !important;
+}
+
+.sgmb_radio_container_buttons .sgmb_image_checkbox,
+.sgmb_radio_container_buttons .sgmb_image_radio {
+	margin: 2px !important;
+}
+
+.sgmb_radio_container_buttons .sgmb_image_radio .checkbox-image {
+	background-color: transparent !important;
+	text-align: center;
+}
+
+.sgmb_radio_container_buttons .sgmb_image_checkbox .checkbox-image {
+	background-color: transparent !important;
+	text-align: center;
+}
+
+.sgmb_radio_container_html .sgmb_image_radio.active {
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.3);
+-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.3);
+box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.3);
+}
+
+.sgmb_radio_container_buttons .sgmb_image_radio.active {
+	-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+}
+
+.sgmb_radio_container_html .sgmb_image_radio .checkbox-state { padding: 8px 0px; }
+
+.sgmb_image_checkbox input[type="checkbox"], .sgmb_image_radio input[type="radio"] {
+	display: none;
+}
+
+.sgmb_image_checkbox .checkbox-image, .sgmb_image_radio .checkbox-image {
+	width: 100%;
+	text-align: center;
+	display: block;
+}
+
+.sgmb_image_checkbox .checkbox-state, .sgmb_image_radio .checkbox-state {
+	width: 100%;
+	text-align: center;
+	display: none;
+	color: #fff;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.sgmb_image_checkbox.active .checkbox-state, .sgmb_image_radio.active .checkbox-state {
+	display: block;
+	/*background-color: #1abc9c;*/
+/*background-color: rgba(0, 116, 162, 1);*/
+	background-color: #8CC63F;
+}
+
+.sgmb_image_checkbox.active, .sgmb_image_radio.active {
+	/*border-color: #1abc9c;
+	background-color: #1abc9c;*/
+	/*border-color: rgba(0, 116, 162, 1);*/
+	/*background-color: rgba(0, 116, 162, 1);*/
+	border-color: #8CC63F;
+}
+
+.sgmb_image_checkbox_container, .sgmb_image_radio_container  {
+	vertical-align: top;
+}
+
+.sgmb_radio_container_buttons .sgmb_image_radio:hover,
+.sgmb_radio_container_buttons .sgmb_image_checkbox:hover {
+	background-color: #3c8fc6;
+	border-color: #3c8fc6;
+	background:  #3c8fc6 !important;
+	color: #fff !important;
+}
+
+.sgmb_radio_container_buttons .sgmb_image_radio.active,
+.sgmb_radio_container_buttons .sgmb_image_checkbox.active {
+	background-color: #2B6A94;
+	border-color: #2B6A94;
+	background:  #2B6A94 !important;
+	color: #fff !important;
+}
+
+.sgmb_radio_container_buttons .sgmb_image_radio.active .checkbox-state,
+.sgmb_radio_container_buttons .sgmb_image_checkbox.active .checkbox-state { display: none !important;}
+
+/* Network Select and Order */
+.sgmb-network-select {
+	line-height: 1em;
+	padding: 10px 10px;
+	border: 1px dotted #d5d5d5;
+	cursor: move;
+	background-color: #fefefe;
+	color: #898989;
+	width: 215px;
+}
+
+.sgmb-network-select.active {
+	color: #151515;
+	/*color: #2B6A94;*/
+	background-color: #f4f5f6;
+	border-color: #757575;
+}
+
+.sgmb-network-select {
+	margin-bottom: 5px;
+	margin-right: 5px;
+	display: inline-block;
+}
+
+.sgmb-sns-name {
+    font-weight: 600;
+}
+
+.sgmb-single-network-name {
+	margin-top: 17px;
+	display: inline-block;
+	width: 45px;
+	font: normal 14px Verdana, Arial, Helvetica, sans-serif !important;
+}
